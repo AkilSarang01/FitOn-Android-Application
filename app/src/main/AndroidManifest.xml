@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ignitech.fiton">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitOn">
+        <activity
+            android:name=".videos"
+            android:exported="false" />
+        <activity
+            android:name=".yoga"
+            android:exported="false" />
+        <activity
+            android:name=".strenght"
+            android:exported="false" />
+        <activity
+            android:name=".exercise"
+            android:exported="false" />
+        <activity
+            android:name=".BMI_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".normal_wg"
+            android:exported="false" />
+        <activity
+            android:name=".nonveg_normal_weight"
+            android:exported="false" />
+        <activity
+            android:name=".nonveg_over_weight"
+            android:exported="false" />
+        <activity
+            android:name=".nonveg_under_weight"
+            android:exported="false" />
+        <activity
+            android:name=".Over_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Under_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".details"
+            android:exported="false"
+            />
+        <activity
+            android:name=".forget_password"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
